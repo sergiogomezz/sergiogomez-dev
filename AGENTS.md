@@ -6,7 +6,7 @@ This version has breaking changes - APIs, conventions, and file structure may al
 
 # Project Instructions
 
-This repository is Sergio Gomez Martin's personal portfolio website. Treat it as a factual, maintainable, accessible interactive CV for an AI / ML Engineer.
+This repository is Sergio Gómez Martín's personal portfolio website. Treat it as a factual, maintainable, accessible interactive CV for an AI / ML Engineer.
 
 ## Sources Of Truth
 

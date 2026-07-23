@@ -1,6 +1,6 @@
 # sergiogomez.dev
 
-Personal portfolio website for Sergio Gomez Martin, an AI / ML Engineer. The project is intended to become an interactive CV: a structured, accessible website that presents Sergio's professional profile while keeping the formal CV available as a PDF.
+Personal portfolio website for Sergio Gómez Martín, an AI / ML Engineer. The project is intended to become an interactive CV: a structured, accessible website that presents Sergio's professional profile while keeping the formal CV available as a PDF.
 
 The CV PDF is available in `public/cv_sergiogomez.pdf`.
 

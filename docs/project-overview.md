@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This project is a personal portfolio website for Sergio Gomez Martin, an AI / ML Engineer based in Madrid, Spain. The site should function as an interactive CV: easier to browse than a PDF, but grounded in the same factual professional record.
+This project is a personal portfolio website for Sergio Gómez Martín, an AI / ML Engineer based in Madrid, Spain. The site should function as an interactive CV: easier to browse than a PDF, but grounded in the same factual professional record.
 
 The formal CV is available at `public/cv_sergiogomez.pdf` and should remain directly accessible from the website.
 

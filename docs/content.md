@@ -4,7 +4,7 @@ This file contains structured factual content extracted from `public/cv_sergiogo
 
 ## Profile
 
-- Name: Sergio Gomez Martin
+- Name: Sergio Gómez Martín
 - Professional title: AI / ML Engineer
 - Location: Madrid, Spain
 - Email: sergio.gomez.martin10@gmail.com
