@@ -1,5 +1,11 @@
 # Roadmap
 
+## Current Status
+
+The first single-page portfolio, responsive navigation, project linking, and
+initial production metadata are implemented. The main remaining content task is
+to connect the dedicated Elvex website when it is ready.
+
 ## Phase 0: Foundation
 
 - Document project purpose, audience, scope, stack, and architecture.
@@ -38,8 +44,8 @@
 
 ## Phase 5: Production Readiness
 
-- Update metadata for SEO and social sharing.
-- Add favicon and Open Graph assets.
+- Update metadata for SEO and social sharing. Completed for the initial release.
+- Add favicon and Open Graph assets. Completed for the initial release.
 - Run `npm run lint` and `npm run build`.
 - Review content for factual accuracy.
 - Deploy to the selected hosting platform.
@@ -47,6 +53,7 @@
 ## Backlog
 
 - Decide final site domain.
+- Add the Elvex website URL when it is published.
 - Confirm public contact details.
 - Confirm whether the website should include writing or notes.
 - Add analytics only if there is a clear need and privacy implications are understood.

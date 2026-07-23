@@ -28,6 +28,11 @@ npm run dev
 
 Open `http://localhost:3000`.
 
+Before deploying, copy `.env.example` to the environment configuration used by
+your hosting provider and set `NEXT_PUBLIC_SITE_URL` to the final public origin,
+for example `https://your-domain.com`. This value is used for the canonical URL,
+Open Graph image, sitemap, and robots file.
+
 Run validation:
 
 ```bash
@@ -37,10 +42,11 @@ npm run build
 
 ## Current Project Status
 
-The project is in foundation setup.
+The first portfolio version is implemented as a statically rendered single page.
 
-- The app is still based on the default create-next-app scaffold.
-- Documentation has been added under `docs/`.
-- The final UI has not been implemented yet.
-- The CV and docs are the source of truth for portfolio content.
-- Future implementation should keep the site factual, maintainable, responsive, and accessible.
+- The homepage includes profile, projects, experience, skills, education, awards, and contact sections.
+- Portfolio content is maintained in `src/data/portfolio.ts`.
+- The Elvex research project links to its public `elvex-v2` repository and is ready for a future project website URL.
+- Responsive navigation, metadata, structured data, an Open Graph image, and crawler rules are included.
+- The CV and files under `docs/` remain the source of truth for personal content.
+- The production domain and Elvex website URL are still to be confirmed.

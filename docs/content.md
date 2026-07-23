@@ -29,7 +29,7 @@ This file contains structured factual content extracted from `public/cv_sergiogo
 
 - Role: AI Engineer
 - Dates: January 2025 - Present
-- Location: Gijon, Spain
+- Location: Gijón, Spain
 - Facts:
   - Took technical ownership in a client-facing aerospace project.
   - Developed PySpark ETL pipelines in Palantir.
@@ -57,7 +57,7 @@ This file contains structured factual content extracted from `public/cv_sergiogo
 
 - Role: Data Scientist
 - Dates: June 2022 - September 2022
-- Location: Gijon, Spain
+- Location: Gijón, Spain
 - Facts:
   - Analyzed machinery expenses across more than 100 vehicles.
   - Identified nearly EUR 100,000 in potential cost savings.
@@ -66,13 +66,13 @@ This file contains structured factual content extracted from `public/cv_sergiogo
 
 ### Elvex: Autonomous Architecture for Generation and Coordination of LLM Agents
 
-- Type: Master's thesis
+- Type: Research project
 - Dates: 2025 - Present
 - Facts:
   - Designed a multi-agent AI architecture.
   - The architecture dynamically generates and coordinates specialized LLM agents.
   - The purpose is to decompose and solve complex general-purpose tasks.
-- Repository link: TODO
+- Repository link: https://github.com/sergiogomezz/elvex-v2
 - Public demo link: TODO
 - Case study details: TODO
 
