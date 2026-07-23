@@ -13,7 +13,7 @@ export const profile: Profile = {
   role: "AI / ML Engineer",
   location: "Madrid, Spain",
   summary:
-    "AI / ML Engineer focused on applied AI systems, LLM agents, machine learning, deep learning, and data pipelines.",
+    "AI / ML Engineer building LLM agent systems and scalable data pipelines for real-world industrial and enterprise problems.",
   focusAreas: [
     "LLM agents",
     "Applied AI systems",
@@ -22,20 +22,24 @@ export const profile: Profile = {
   ],
   links: [
     {
+      id: "email",
       label: "Email",
       href: "mailto:sergio.gomez.martin10@gmail.com",
     },
     {
+      id: "linkedin",
       label: "LinkedIn",
       href: "https://linkedin.com/in/sergio-gomez10",
       external: true,
     },
     {
+      id: "github",
       label: "GitHub",
       href: "https://github.com/sergiogomezz",
       external: true,
     },
     {
+      id: "cv",
       label: "CV",
       href: "/cv_sergiogomez.pdf",
       external: true,
@@ -47,8 +51,11 @@ export const experience: ExperienceItem[] = [
   {
     role: "AI Engineer",
     company: "Accenture AI",
-    location: "Gijon, Spain",
+    location: "Gijón, Spain",
     dates: "Jan 2025 - Present",
+    companyLogo: {
+      src: "/icons/companies/accenture.webp",
+    },
     highlights: [
       "Took technical ownership in a client-facing aerospace project.",
       "Developed PySpark ETL pipelines in Palantir to process more than 300 million asset-tracking events.",
@@ -59,8 +66,11 @@ export const experience: ExperienceItem[] = [
   {
     role: "Machine Learning Engineer",
     company: "Ikerlan",
-    location: "San Sebastian, Spain",
+    location: "San Sebastián, Spain",
     dates: "Aug 2023 - Aug 2024",
+    companyLogo: {
+      src: "/icons/companies/ikerlan.png",
+    },
     highlights: [
       "Developed an AWS-based data storage system used to serve ML models in predictive maintenance use cases.",
       "Worked with more than 10 GB of real industrial data as part of a Computer Engineering BSc thesis.",
@@ -70,8 +80,11 @@ export const experience: ExperienceItem[] = [
   {
     role: "Data Scientist",
     company: "Excade",
-    location: "Gijon, Spain",
+    location: "Gijón, Spain",
     dates: "Jun 2022 - Sep 2022",
+    companyLogo: {
+      src: "/icons/companies/excade.png",
+    },
     highlights: [
       "Analyzed machinery expenses across more than 100 vehicles.",
       "Identified nearly EUR 100,000 in potential cost savings.",
@@ -82,7 +95,7 @@ export const experience: ExperienceItem[] = [
 export const projects: ProjectItem[] = [
   {
     name: "Elvex: Autonomous Architecture for Generation and Coordination of LLM Agents",
-    type: "Master's thesis",
+    type: "Research project",
     dates: "2025 - Present",
     summary:
       "A multi-agent AI architecture that dynamically generates and coordinates specialized LLM agents to decompose and solve complex general-purpose tasks.",
@@ -91,6 +104,9 @@ export const projects: ProjectItem[] = [
       "Focused on dynamic generation and coordination of specialized LLM agents.",
       "Built around decomposition and solution of complex general-purpose tasks.",
     ],
+    status: "Active development",
+    tags: ["LLM agents", "Multi-agent systems", "Agent orchestration"],
+    repositoryUrl: "https://github.com/sergiogomezz/elvex-v2",
   },
 ];
 
@@ -158,8 +174,8 @@ export const awards: AwardItem[] = [
 ];
 
 export const navigation = [
-  { label: "Experience", href: "#experience" },
   { label: "Projects", href: "#projects" },
+  { label: "Experience", href: "#experience" },
   { label: "Skills", href: "#skills" },
   { label: "Education", href: "#education" },
   { label: "Contact", href: "#contact" },

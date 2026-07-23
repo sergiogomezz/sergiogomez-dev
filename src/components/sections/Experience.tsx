@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { experience } from "@/data/portfolio";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 
@@ -8,7 +9,6 @@ export function Experience() {
         <SectionHeading
           eyebrow="Experience"
           title="Applied AI, data systems, and client-facing engineering work."
-          description="A concise view of the professional experience currently documented in the CV."
         />
 
         <div className="mt-12 space-y-8">
@@ -18,6 +18,17 @@ export function Experience() {
               className="grid gap-6 border-t border-stone-200 pt-8 lg:grid-cols-[0.35fr_0.65fr]"
             >
               <div>
+                {item.companyLogo ? (
+                  <div className="mb-5 flex h-12 w-32 items-center">
+                    <Image
+                      src={item.companyLogo.src}
+                      alt=""
+                      width={128}
+                      height={48}
+                      className="h-12 w-32 object-contain object-left"
+                    />
+                  </div>
+                ) : null}
                 <p className="text-sm font-medium text-stone-500">
                   {item.dates}
                 </p>

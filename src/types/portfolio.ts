@@ -1,4 +1,5 @@
 export type LinkItem = {
+  id: "email" | "linkedin" | "github" | "cv";
   label: string;
   href: string;
   external?: boolean;
@@ -18,6 +19,9 @@ export type ExperienceItem = {
   company: string;
   location: string;
   dates: string;
+  companyLogo?: {
+    src: string;
+  };
   highlights: string[];
 };
 
@@ -27,6 +31,10 @@ export type ProjectItem = {
   dates: string;
   summary: string;
   highlights: string[];
+  repositoryUrl?: string;
+  websiteUrl?: string;
+  status?: string;
+  tags?: string[];
 };
 
 export type EducationItem = {
